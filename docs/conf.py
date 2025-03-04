@@ -15,7 +15,8 @@ release = '1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['myst_parser',
-              'sphinx.ext.mathjax']
+              'sphinx.ext.mathjax',
+             'sphinx.ext.autodoc']
 
 templates_path = ['_templates']
 exclude_patterns = ['projects/mtracker/*',
