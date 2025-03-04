@@ -7,19 +7,7 @@ python:
 sphinx:
   configuration: docs/conf.py
 
-formats:
-  - html
-
 build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
-  apt_packages:
-    - build-essential
-    - libxml2-dev
-    - libxslt1-dev
-    - zlib1g-dev
-
-python:
-  install:
-    - requirements: docs/requirements.txt
